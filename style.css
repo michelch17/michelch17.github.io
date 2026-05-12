@@ -34,9 +34,9 @@ h2, .white{
 
 /* Add space between contact icons and text */
 .section-2 p i {
-    width: 25px; /* Ensures icons align vertically */
-    color: #c8cdd2; /* Matches your title color, or use #fff for pure white */
-    margin-right: 8px;
+    margin-right: 15px; /* Increase this number for more space */
+    width: 20px;        /* Fixed width keeps the text perfectly aligned */
+    text-align: center;
 }
 
 a{
