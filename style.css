@@ -67,7 +67,8 @@ a{
 
 .section-2 p{
     font-size: 1.1rem;
-    padding-bottom: 10px;
+    line-height: 1.6; /* Added to match projects */
+    padding-bottom: 14px; /* Adjusted to match project-desc margin */
     margin: 0;
     color: #fff;
 }
