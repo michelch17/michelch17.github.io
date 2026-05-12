@@ -32,6 +32,13 @@ h2, .white{
     padding-bottom: 8px;
 }
 
+/* Add space between contact icons and text */
+.section-2 p i {
+    width: 25px; /* Ensures icons align vertically */
+    color: #c8cdd2; /* Matches your title color, or use #fff for pure white */
+    margin-right: 8px;
+}
+
 a{
     color: #7A7C80;
     text-decoration: none;
