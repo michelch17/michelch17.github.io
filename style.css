@@ -18,6 +18,19 @@ h2, .white{
     color: #fff;
 }
 
+/* Section headings: small-caps label style so they stand out from white body text */
+.section-2 h2 {
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: #7A7C80;
+    margin-top: 2rem;
+    margin-bottom: 0.75rem;
+    border-bottom: 1px solid #2a2d31;
+    padding-bottom: 6px;
+}
+
 a{
     color: #7A7C80;
     text-decoration: none;
@@ -51,15 +64,11 @@ a{
     width: 70%;
 }
 
-.section-2 h2{
-    font-size: 1.7rem;
-    margin-bottom: 10px;
-}
-
 .section-2 p{
     font-size: 1.1rem;
     padding-bottom: 10px;
     margin: 0;
+    color: #fff;
 }
 
 /* Project cards */
@@ -78,7 +87,8 @@ a{
 .project-desc {
     font-size: 1rem;
     line-height: 1.6;
-    margin: 0 0 12px 0 !important;
+    color: #fff;
+    margin: 0 0 14px 0 !important;
     padding: 0 !important;
 }
 
